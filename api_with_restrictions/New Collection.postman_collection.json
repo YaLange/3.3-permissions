@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "932a5b88-397f-4b4b-a0e4-aa5c32c1ff8a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test_user localhost:8000/api/advertisements/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token d486655ede1c7558d9d3105a187596aca971f040",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Шкаф IKEA\",\n  \"description\": \"Срочно\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin localhost:8000/api/advertisements/ Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token d486655ede1c7558d9d3105a187596aca971f040",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Шкаф IKEA\",\n  \"description\": \"Срочно\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oleg localhost:8000/api/advertisements/ Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token d486655ede1c7558d9d3105a187596aca971f040",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Шкаф IKEA\",\n  \"description\": \"Срочно\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test_user localhost:8000/api/advertisements/13/",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token d486655ede1c7558d9d3105a187596aca971f040",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\": \"CLOSED\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/13/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin localhost:8000/api/advertisements/13/ Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token d486655ede1c7558d9d3105a187596aca971f040",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\": \"CLOSED\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/13/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oleg PATCH localhost:8000/api/advertisements/3/",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token c274dd4e0dea21408bd2940916d0415c17065068",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\": \"CLOSED\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/3/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/advertisements/6/",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token c274dd4e0dea21408bd2940916d0415c17065068",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\": \"CLOSED\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/advertisements/6/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						"6",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/advertisements/?created_at_before=2022-06-04",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/advertisements/?created_at_before=2022-06-04",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						""
+					],
+					"query": [
+						{
+							"key": "created_at_before",
+							"value": "2022-06-04"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/advertisements/?status=OPEN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/advertisements/?status=OPEN",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						""
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "OPEN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/advertisements/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/advertisements/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"advertisements",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
